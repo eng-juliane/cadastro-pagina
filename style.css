@@ -1,0 +1,213 @@
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  h1, h2, h3, .logo {
+    font-family: 'Orbitron', sans-serif;
+    font-style: italic;
+    color: #d24af0;
+  }
+  
+  .logo02 {
+    width: 100%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #000;
+    border-bottom: 1px solid #d24af0;
+    flex-wrap: wrap;
+
+  }
+  
+  .logo-img {
+    width: 120px;
+    max-width: 20%;
+  }
+  
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    
+  }
+  
+  nav ul li a, nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover, nav a:hover {
+    color: #d24af0;
+  }
+
+  nav ul li a Cadastro {
+    color: #d24af0;
+    font-weight: bold;
+  }
+  /****fim do menu***/
+ 
+
+
+  /****cadastro***/
+
+  
+/* Container principal */
+.cadastro-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #111;
+  border: 1px solid #d24af0;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #d24af0;
+}
+
+/* Títulos */
+.cadastro-container h1,
+.cadastro-container h2 {
+  text-align: center;
+  color: #d24af0;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* Formulário */
+.cadastro-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.cadastro-form label {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.cadastro-form input[type="text"],
+.cadastro-form input[type="email"],
+.cadastro-form input[type="password"] {
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 10px;
+  border: none;
+  background-color: #222;
+  color: #d24af0;
+}
+
+/* Plano e pagamento */
+.plano-box,
+.pagamento-opcoes {
+  margin-top: 20px;
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #d24af0;
+}
+
+.plano-box label,
+.pagamento-opcoes label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Cartão info */
+.cartao-info {
+  margin-top: 20px;
+}
+
+.cartao-info input {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+/* Pix info */
+.pix-info {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #d24af0;
+}
+
+.pix-info p {
+  margin-bottom: 10px;
+}
+
+.pix-info img {
+  border-radius: 10px;
+  border: 2px solid #d24af0;
+}
+
+/* Botão de envio */
+.btn-pagamento {
+  margin-top: 30px;
+  padding: 12px;
+  background-color: #d24af0;
+  color: #000;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-pagamento:hover {
+  background-color: #ff5ce2;
+}
+
+
+/*footer*/
+
+  footer {
+  background-color: #000;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem; 
+}
+
+
+footer nav {
+  margin-top: -47px;
+}
+
+footer  .social {
+  margin-top: -3px;
+}
+
+footer .img-contato {
+  width: 30px;
+}
+
+footer p {
+  margin: 0.2rem 0;
+  font-size: 0.9rem;
+  color: #aaa;
+}
+
+footer img{
+    width: 3%;
+} 
