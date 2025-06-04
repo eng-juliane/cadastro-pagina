@@ -1,4 +1,3 @@
-https://github.com/eng-juliane/cadastro-pagina/blob/main/img/
 
 <p align="center">
   <a href="file:///Documents/1-Sites/GitHub/cadastro.html#">
